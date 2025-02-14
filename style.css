@@ -1,0 +1,140 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4A90E2, #0637ec);
+    padding: 20px;
+}
+
+.container {
+    width: 700px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 15px;
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.text-input .to-text {
+    border-radius: 0;
+    border-left: 1px solid #ccc;
+    background: #eaeaea;
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    padding: 10px;
+    background: none;
+}
+
+.controls, li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    list-style: none;
+    padding: 15px 10px;
+}
+
+.controls .row.from .icons {
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.controls .row.to .icons {
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+
+.controls .icons {
+    width: 35%;
+    display: flex;
+    gap: 10px;
+}
+
+.controls .icons i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 18px;
+    cursor: pointer;
+    background: #eaeaea;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.controls .icons i:hover {
+    background: #5394f0;
+    color: #fff;
+}
+
+.controls .row select {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.controls .exchange {
+    color: #555;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls .exchange:hover {
+    color: #5394f0;
+}
+
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #007bff;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background: #0056b3;
+}
